@@ -15,7 +15,9 @@ include('partials/header.php')
 </nav>
 <div class="indexx">
     <img src="images/123.jpg" alt="" width="100%" height="auto">
-    <a href="">saaf</a>
+    <div>
+        <p>Get </p>
+    </div>
 
 </div>
 
