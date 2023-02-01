@@ -1,66 +1,58 @@
-
 .card {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 2%;
-    max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 2%;
+  max-width: 900px !important;
 }
 
 h5 {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    margin-top : 5% !important;
+  margin-top: 5% !important;
 }
+
 nav {
-    padding:0 5% !important;
+  padding: 0 5% !important;
 }
-.nav-wrapper a{
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+
+.nav-wrapper a {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
 }
-.body1{
-    /* padding-top: 0; */
-    height: 650px;
-    /* opacity: 0.6; */
-    /* background-image: url(../../images/medium-shot-couple-therapy.jpg); */
-    background-repeat: no-repeat;
+
+.body1 {
+    position: relative;
     background-size: cover;
-    background-position: fixed;
-    position: relative;
-    /* background-color: rgba(184, 214, 241, 0.852) !important; */
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.9;
 }
-.body1 img{
-    opacity: 0.3;
-}
-.para{
-    text-align: center;
+img {
     position: absolute;
-  top: 20%;
-  width: 100%;
+    opacity: 0.5;
+    height : 120%;
+}
+.para {
   text-align: center;
-
-    margin:auto 0 auto 0;
-    font-family: sans-serif;
-    color:#145b07 ;
-
+  margin: auto 0;
+  font-family: sans-serif;
+  color: #145b07;
+  padding: 5% 0;
+  position: relative;
 }
-.para h1{
-    font-weight: 700;
+
+.para h2 {
+  margin-top: 5% !important;
+  font-weight: 700;
 }
-.para p{
-    font-size: 20px;
-    width: 60%;
-    margin: 2% auto;
+
+.para p {
+  font-size: 20px;
+  width: 60%;
+  margin: 2% auto;
   text-align: center;
-
-}
-.box{
-    background-color: #145b07;
-    margin: 0 15%;
-    height: 200px;
-    position: relative;
-    margin-bottom: 100%;
 }
