@@ -1,8 +1,8 @@
 <div class="container">
-   <div class="card">
-    <form action="" method="post">
+   <div class="card" id="formcolor">
+    <form action="" method="post" >
 
-    <h5>Enter your Details</h5>
+    <h3>Enter your Details</h3>
     
     <div class="row">
    
@@ -42,8 +42,8 @@
 
    
     <div class="col s12">
-    <button type="submit" name="submit" class="waves-effect waves-light btn #76ff03 light-green accent-3"><i class="material-icons left">save</i>Save</button>
-    <a href="viewAll.php" class="waves-effect waves-light btn #01579b light-blue darken-4"><i class="material-icons left ">format_list_bulleted</i>View All</a>
+    <button type="submit" name="submit" class="waves-effect waves-light btn light-green accent-3" onclick="validate()"><i class="material-icons left">save</i>Save</button>
+    <a href="viewAll.php" class="waves-effect waves-light btn light-blue darken-4"><i class="material-icons left ">format_list_bulleted</i>View All</a>
     </div>
 
     </div>

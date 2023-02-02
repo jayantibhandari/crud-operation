@@ -1,11 +1,13 @@
 .card {
   margin-left: auto !important;
   margin-right: auto !important;
-  padding : 2%;
+  padding : 4%;
 }
 
-h5 {
+h3 {
   text-align: center;
+  font-weight : 600 !important;
+  color : #1c5459;
 }
 
 .container {
@@ -15,6 +17,7 @@ h5 {
 .nav{
     background-color: #14213d !important;
 }
+
 .nav-wrapper{
     margin: 0 10%;
 }
@@ -110,4 +113,26 @@ img {
 }
 .page-footer{
   margin-top: 5%;
+}
+
+img#legos {
+  margin-left: auto;
+  margin-right: auto
+}
+.navinclude {
+  background-color : rgb(28, 84, 89);
+  color : white;
+  padding : 5px;
+}
+
+#formcolor a {
+  background-color : #3c6e71 !important;
+}
+#formcolor button {
+  background-color : #1c5459 !important;
+}
+
+#about a {
+  color :#1c5459;
+  font-weight: 700 !important;
 }
