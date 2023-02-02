@@ -1,8 +1,7 @@
 .card {
   margin-left: auto !important;
   margin-right: auto !important;
-  padding: 2%;
-  max-width: 1200px !important;
+  padding : 2%;
 }
 
 h5 {
@@ -24,16 +23,12 @@ h5 {
     font-size: 20px;
 }
 
-.indexx{
-
-}
-
 nav {
   padding: 0 5% !important;
 }
 
 .nav-wrapper a {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -57,7 +52,6 @@ nav {
 img {
     position: absolute;
     opacity: 0.9;
-    height : 120%;
 }
 .para {
   text-align: left;
@@ -84,46 +78,29 @@ img {
 
 .card p{
     text-align: justify;
-    padding-top: 30%;
 }
 
-.card img{
-    height: 50px !important;
-    margin-left: 8%;
-    width: 50px !important;
+.card img {
+  position: absolute;
+  top: 0;
+  height:100% ;
+}
+#coff1 {
+  width: 100%;
+  position: relative;
 }
 
-.aboute{
-    margin-top: 2%;
-    display: flex;
+#whyus p{
+  text-align: justify;
 }
-.about{
-    margin:5% auto;
+
+#whyus {
+  text-align: center;
+  padding-bottom : 20px;
+  color : #14213d;
+  font-weight : 600;
 }
-.about .title{
-    text-align: center;
-}
-.about .title h1{
-    font-weight: 700;
-    color: #124559;
-}
-.aboute .part1{
-    width: 40%;
-    margin-left: 10%;
-}
-.aboute .part1 img{
-    height: 400px;
-    width: 600px;
-}
-.aboute .part2{
-    float: right;
-    width:40%;
-    margin-top: 4%;
-    margin-right: 10%;
-    margin-left: 5%;
-}
-.aboute .part2 p{
-    color: #14213d;
-    font-weight: 600;
-    font-size: 18px;
+
+#textarea2 {
+  color : white;
 }

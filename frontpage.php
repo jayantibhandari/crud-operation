@@ -23,82 +23,93 @@ include('partials/header.php');
   </div>
 
 </div> 
+<div class="container">
 <div class="card" style="position : relative;
 background-color: #ffe066;">
+  <div class="row">
+     <div class="col s3" style="padding:0 2%;">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            odio,
+          </p> 
+          
+     </div>
 
-<div class="row">
-  <div class="col s3" style="padding:0 2%;">
-    <img src="images/facebook.png" >
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-     odio, numquam officiaNihil.</p>
+     <div class="col s3" style="padding:0 2%;">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            odio,
+           </p> 
+     </div>
+     <div class="col s3" style="padding:0 2%;">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            odio,
+           </p>
+             
+     </div>
+     <div class="col s3" style="padding:0 2%;">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            odio, 
+           </p>
+        
+     </div>
+
   </div>
-  <div class="col s3" style="padding:0 2%;">
-  <img src="images/what.png" >
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-     odio, numquam officiaNihil.</p>
-  </div>
-  <div class="col s3" style="padding:0 2%;">
-  <img src="images/instagram.png" >
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-     odio, numquam officiaNihil.</p>
-  </div>
-  <div class="col s3" style="padding:0 2%;">
-  <img src="images/twitter.png" >
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-     odio, numquam officiaNihil.</p>
-  </div> 
 </div>
 </div>
+<!--why us -->
+<div class="#whyus">
+  <div class="container">
+         <div class="row">
+         <h2 id="whyus">Why Choose Us ?</h2>
+            <div class="col s6">
+              <img src="images/co1.jpeg" width="100%" id="coff1">
+            </div>
+            <div class="col s6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus tenetur, omnis quia pariatur magni dicta ex eos, vitae suscipit perspiciatis tempore quidem nemo id nesciunt? Delectus explicabo veritatis ex ducimus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus tenetur, omnis quia pariatur magni dicta ex eos, vitae suscipit perspiciatis tempore quidem nemo id nesciunt? Delectus explicabo veritatis ex ducimus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus tenetur, omnis quia pariatur magni dicta ex eos, vitae suscipit perspiciatis tempore quidem nemo id nesciunt? Delectus explicabo veritatis ex ducimus.
 
-<div id="about" class="about">
-    <div class="title">
-      <h1> Why Choose Us? </h1>
-    </div>
-    <div class="aboute">
-
-      <div class="part1">
-         <img src="images/co1.jpeg" alt="">
-      </div>
-
-      <div class="part2">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sapiente aliquid consequatur, exercitationem labore suscipit repudiandae, fugiat ex doloremque officiis quos, voluptatum nemo? Obcaecati facere consequatur saepe quos cupiditate. Animi.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sapiente aliquid consequatur, 
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sapiente aliquid consequatur, exercitationem labore suscipit repudiandae, fugiat ex doloremque officiis quos, voluptatum nemo? Obcaecati facere consequatur saepe quos cupiditate. Animi.
-
-      </div>
-    </div>
+              </p>
+            </div>
+         </div>   
   </div>
+</div>
+<!--why us -->
 
-  <footer class="page-footer ">
+        
+        <!--footer section -->
+        <footer class="page-footer">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Leave a subscrition</h5>
+                <label for="textarea2">Enter your email</label>
+                <textarea id="textarea2" class="materialize-textarea" data-length="120" ></textarea>
+                <br>
+                <a class="waves-effect waves-light btn-large #ffc107 amber "><i class="material-icons right">add_circle_outline</i>Subscribe</a>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Useful Links</h5>
+                <center>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
                 </ul>
+              </center>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+           <center> © 2014 Copyright Jayanti Bhandari </center>
             </div>
           </div>
         </footer>
-
+     <!--footer section -->
 
 <?php 
 include('partials/footer.php')
