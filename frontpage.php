@@ -14,11 +14,14 @@ include('partials/header.php');
   </div>
 
 </div> 
+
+
 <div class="container">
 <div class="card" style="position : relative;
 background-color: #ffe066;">
   <div class="row">
      <div class="col s3" style="padding:0 2%;">
+     <img src="images/money-bag.png" alt="" srcset="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             odio,
@@ -27,12 +30,14 @@ background-color: #ffe066;">
      </div>
 
      <div class="col s3" style="padding:0 2%;">
+     <img src="images/quality-service.png" alt="" srcset="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             odio,
            </p> 
      </div>
      <div class="col s3" style="padding:0 2%;">
+     <img src="images/task.png" alt="" srcset="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             odio,
@@ -40,6 +45,7 @@ background-color: #ffe066;">
              
      </div>
      <div class="col s3" style="padding:0 2%;">
+     <img src="images/bullhorn.png" alt="" srcset="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             odio, 

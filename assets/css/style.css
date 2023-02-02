@@ -78,12 +78,17 @@ img {
 
 .card p{
     text-align: justify;
+    color: #14213d;
+    /* padding-top: ; */
 }
 
 .card img {
-  position: absolute;
-  top: 0;
-  height:100% ;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* width: 20%; */
+  height:90px ;
+  /* background-color: #124559; */
 }
 #coff1 {
   width: 100%;
