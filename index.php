@@ -3,6 +3,7 @@
 include('partials/header.php');
 
 // echo '<h5> CRUD OPERATION <h5>';
+include('navbar.php');
 
 //create form startes here
 include('components/dataForm.php');

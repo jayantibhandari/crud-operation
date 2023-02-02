@@ -2,7 +2,7 @@
    <div class="card">
     <form action="" method="post">
 
-    <h5>CRUD OPERATION</h5>
+    <h5>Enter your Details</h5>
     
     <div class="row">
    

@@ -2,6 +2,8 @@
 
 include('partials/header.php');
 
+include('navbar.php');
+
 ?>
 
 <div class="container">
